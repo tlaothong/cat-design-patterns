@@ -7,3 +7,4 @@ Advanced Design Patterns workshop for CAT
 
 ## Documents
 * [UML](docs/UML.pdf)
+* [Object Design](docs/ObjectDesign.pdf)
