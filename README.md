@@ -3,3 +3,4 @@ Advanced Design Patterns workshop for CAT
 
 ## Concepts
 * [Object-Oriented](OO.md)
+* [OO Principles](Principles.md)
