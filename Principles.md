@@ -13,3 +13,6 @@
     * Liskov Substitution Principle
     * Inteface Seggregation Principle
     * Dependency Injection Principle
+* GRASP
+
+    * General Responsibility Assignment Software Patterns
