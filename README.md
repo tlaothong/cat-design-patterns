@@ -8,3 +8,4 @@ Advanced Design Patterns workshop for CAT
 ## Documents
 * [UML](docs/UML.pdf)
 * [Object Design](docs/ObjectDesign.pdf)
+* [Well-Formed Classes](docs/WellFormedClass.pdf)
