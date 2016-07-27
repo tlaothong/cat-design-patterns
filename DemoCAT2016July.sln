@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "CoffeeShop\CoffeeShop.csproj", "{F7EF8580-27E1-4788-932F-73DCE8DDE687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceApp", "WcfServiceApp\WcfServiceApp.csproj", "{F2B54A1F-FD9C-4B8B-976A-6148803210A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceClient", "WcfServiceClient\WcfServiceClient.csproj", "{CF0EEB08-7A71-4DC5-8A73-2F1787EF3CEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2B54A1F-FD9C-4B8B-976A-6148803210A2} = {F2B54A1F-FD9C-4B8B-976A-6148803210A2}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,14 @@ Global
 		{F7EF8580-27E1-4788-932F-73DCE8DDE687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7EF8580-27E1-4788-932F-73DCE8DDE687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7EF8580-27E1-4788-932F-73DCE8DDE687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B54A1F-FD9C-4B8B-976A-6148803210A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B54A1F-FD9C-4B8B-976A-6148803210A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B54A1F-FD9C-4B8B-976A-6148803210A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B54A1F-FD9C-4B8B-976A-6148803210A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0EEB08-7A71-4DC5-8A73-2F1787EF3CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0EEB08-7A71-4DC5-8A73-2F1787EF3CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0EEB08-7A71-4DC5-8A73-2F1787EF3CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0EEB08-7A71-4DC5-8A73-2F1787EF3CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
