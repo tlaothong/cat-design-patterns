@@ -10,3 +10,4 @@ Object-Oriented
     * -> Composition
 * Association
 * Interface
+* Polymorphism
