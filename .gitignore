@@ -243,3 +243,16 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+
+# AspNetCore and Front-End
+**/wwwroot/lib
+**/wwwroot/scripts
+**/wwwroot/_references.js
+*.min.js
+*.min.css
+**/scripts/**/*.js
+**/scripts/**/*.js.map
+typings/
+
+.vscode/
