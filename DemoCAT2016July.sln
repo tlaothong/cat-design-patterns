@@ -20,6 +20,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentBiz", "ComponentBi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRunComponent", "DemoRunComponent\DemoRunComponent.csproj", "{A39787D4-82EE-4359-A6BB-AB245024BBCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFullDuplexServer", "WcfFullDuplexServer\WcfFullDuplexServer.csproj", "{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFullDuplexConsoleClient", "WcfFullDuplexConsoleClient\WcfFullDuplexConsoleClient.csproj", "{E236A71C-5A40-4AFA-925B-28AED015F64E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E} = {16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +61,14 @@ Global
 		{A39787D4-82EE-4359-A6BB-AB245024BBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39787D4-82EE-4359-A6BB-AB245024BBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39787D4-82EE-4359-A6BB-AB245024BBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C7C9E0-3514-4A7B-8A9E-F7CF4E47481E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E236A71C-5A40-4AFA-925B-28AED015F64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E236A71C-5A40-4AFA-925B-28AED015F64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E236A71C-5A40-4AFA-925B-28AED015F64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E236A71C-5A40-4AFA-925B-28AED015F64E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

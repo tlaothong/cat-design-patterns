@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfFullDuplexServer.OrderService" CodeBehind="OrderService.svc.cs" %>
